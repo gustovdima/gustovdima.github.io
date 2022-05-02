@@ -1,126 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Project: Personal Portfolio</title>
-	<style>
-	body{
-	   margin:auto;
-	   background:#282828;
-	   color:#ffffff;
-	   	   }
-	#welcone-section {
-	
-	width:100%;
-	display:flex;
-	flex-direction:column;
-	
-	}
-	#navbar {
-	background:darkred;
-	padding:2%;
-	width:98%;
-	text-align:right;
-	margin:0;
-	z-index:2;
-	position:fixed;
-	top:0;
-	}
-	#navbar a{
-	text-align:right;
-	padding:3px 10px;
-	text-decoration:none;
-	font-size:16px;
-	font-family:monospace;
-	color:white;
-	
-	}
-	#banner{
-	   
-	   width:100%;
-	   height:100vh;
-	   position:relative;
-	   top:30px;
-	  
-	}
-	  
-	 article h1{
-	
-	 text-align:center;
-	 position:relative;
-	 top:20%;
-	 font-family:arial,sans-serif;
-	 font-size:54px;
-	 font-weight:bold;
-	 }
-	  article p{
-	
-	 text-align:center;
-	 position:relative;
-	 top:18%;
-	 font-family:monospace;
-	 font-size:28px;
-	 color:red;
-	 
-	 }
-	 
-	 /*Project Tile */
-	 #projects{
-	 background:gray;
-	 display:grid;
-	 grid-template-columns:1fr 1fr 1fr;
-	 grid-gap:10px;
-	 }
-	 .project-tile{
-	 
-	 background:red;
-	 }
-	</style>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>myProjectPortfolio</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-<section id="Welcome-section">
-<nav id="navbar">
-<a id="profile-link" href="about.html">About</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
-<article id="banner">
-<h1>My Name is Ram Kumar</h1>
-<p><em>I am a web designer</em></p>
-<article>
-</section>
-<header>
-<h2>My Projects</h2>
-</header>
-<section id="projects">
+<body id="body">
+	<h1>Project portfolio</h1>
 
-   <figure class="project-tile">
-   <a href="https://codepen.io/GirishS/full/rNBdjgP">
-   <img src="images/product-page.png" alt="product page">
-   <figcaption> Tribute Page</figcaption></a>
-   </figure>
-<figure class="project-tile">
-   <a href="https://codepen.io/GirishS/full/pozLVeQ">
-   <figcaption> Survey Form Page</figcaption></a>
-   </figure>
-   <figure class="project-tile">
-   <a href="https://codepen.io/GirishS/full/eYOrbba">
-   <figcaption> Product Page</figcaption></a>
-   </figure>
-  <figure class="project-tile">
-   <a href="https://codepen.io/GirishS/full/aboGrym">
-   <figcaption>Technical Documentation Page</figcaption></a>
-   </figure>
- <figure class="project-tile">
-   <a href="https://codepen.io/GirishS/full/aboGrym">
-   <figcaption>Technical Documentation Page</figcaption></a>
-   </figure>
-   
-</section>
-<section id="contact">
-<header>
-<h2>Hire Me!</h2>
-<p>Let's work together...</p>
-</header>
-</section>
+<table>
+        <tbody><tr>
+            <td>
+                <img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" alt="img2" id="imgqaz">
+            </td>
+            <td>
+                <img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" alt="img2" id="imgQwe">
+            </td>
+            <td>
+                <img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" alt="img3" id="imgSignIn">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Bottom Navigation View</p>
+            </td>
+            <td>
+                <p>ListView add|remove</p>
+            </td>
+            <td >
+                <p>Sign in|Sign up</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>This is Bottom Navigation view</p>
+            </td>
+            <td>
+                <p>This is ListView</p>
+            </td>
+            <td>
+                <p>This is Sign in and Sign up</p>
+            </td>
+        </tr>
+    </tbody></table>
+
+</body>
+<body>
+<h2>About author</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNL_ZnOTpXSvhf1UaK7beHey2BX42U6solRA&usqp=CAU" alt="img4" class="ava">
+    <h3>Personal information: </h3>
+    <li>Gustov Dmitriy</li>
+    <h3>Courses: </h3>
+    <li>SalemCode Python</li>
+    <li>Salemcode Java</li>
+    <li>Samsung coding academy android-developer</li>
 </body>
 </html>
